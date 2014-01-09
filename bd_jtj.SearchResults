@@ -1,0 +1,6 @@
+---- Delete_all_sms_flag Matches (5 in 3 files) ----
+App_gsm.c (bsp\stm32f407vgt6_recdrv\app_712\gsm):	            if(Delete_all_sms_flag==1)
+App_gsm.c (bsp\stm32f407vgt6_recdrv\app_712\gsm):                   Delete_all_sms_flag=0;
+Device_gsm.c (bsp\stm32f407vgt6_recdrv\app_712\gsm):u8  Delete_all_sms_flag=0;  // 删除所有短信标志位  
+Device_gsm.c (bsp\stm32f407vgt6_recdrv\app_712\gsm):			   Delete_all_sms_flag=1;  
+Device_gsm.h (bsp\stm32f407vgt6_recdrv\app_712\gsm):extern u8   Delete_all_sms_flag;  // 删除所有短信标志位      
