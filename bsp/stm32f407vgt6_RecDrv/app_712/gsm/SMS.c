@@ -223,6 +223,7 @@ void   SMS_protocol (u8 *instr,u16 len, u8  ACKstate)   //  ACKstate
 			if((NULL==pstrTempStart)||(NULL==pstrTempEnd))
 				{
 				break;
+				
 				}
 			rt_kprintf("\r\n短信命令格式有效 !");  
 			///获取命令内容
